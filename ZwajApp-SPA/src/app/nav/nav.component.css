@@ -5,6 +5,15 @@
 
 .nav-link {
   color:white !important;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family:'JF Flat';
+  font-size: 1.0rem
+}
+
+.dropdown-item:hover{
+  color:pink !important;
+ 
 }
 
 .btn-secondary:hover {
@@ -13,3 +22,11 @@
     background:pink !important
       }
 
+.dropdown-toggle,.dropdown-item{
+
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family:'JF Flat';
+  font-size: 1.0rem;
+cursor: pointer;
+}
