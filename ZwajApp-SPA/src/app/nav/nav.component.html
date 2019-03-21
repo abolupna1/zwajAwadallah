@@ -21,7 +21,7 @@ font-family:ToyorAljanah;font-size:2.25rem;font-weight:bolder" class="navbar-bra
   </ul>
 
   <div dropdown   *ngIf="loggedIn()" class="dropdown">
-    <a dropdownToggle  href="#" class=" dropdown-toggle text-white nav-link" 
+    <a dropdownToggle   class=" dropdown-toggle text-white nav-link" 
      style="letter-spacing:1px;font-weight:bold;font-family:'JF Flat';font-size:1.2rem" >
       مرحبا بك
       {{authService.decodedToken.unique_name}}
